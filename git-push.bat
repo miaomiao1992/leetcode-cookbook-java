@@ -10,4 +10,4 @@ set "Ymd=%date:~,4%-%date:~5,2%-%date:~8,2%-%time:~0,5%-push"
 
 echo git-push success!
 
-::@pause
+@pause

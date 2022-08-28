@@ -34,6 +34,13 @@ public class Main {
         }
     }
 
+    //todo
+    public static int longestSubstringWithoutRepeatingCharacters02(String string) {
+        int longest = 0;
+        return longest;
+    }
+
+    //暴力解法
     public static int longestSubstringWithoutRepeatingCharacters(String string) {
         int longest = 0;
         for (int i = 0; i < string.length(); i++) {

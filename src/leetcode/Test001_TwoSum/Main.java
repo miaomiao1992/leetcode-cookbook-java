@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        System.out.println(Arrays.toString(twoSum(new int[]{2,3,4},5)));
+        System.out.println(Arrays.toString(twoSum(new int[]{2, 7, 11, 15},9)));
     }
 
     public static int[] twoSum(int nums[], int target) {

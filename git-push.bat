@@ -1,6 +1,10 @@
 @echo off
 
-set "Ymd=%date:~,4%-%date:~5,2%-%date:~8,2%-%time:~0,5%:%time:~6,2%-push"
+set "Time=%time:~0,5%"
+set "t=%Time: =0%"
+::echo %t%
+
+set "Ymd=%date:~,4%-%date:~5,2%-%date:~8,2%-%t%-push"
 
  git add src
  git add git-cookbook

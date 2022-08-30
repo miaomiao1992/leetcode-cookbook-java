@@ -1,6 +1,6 @@
 @echo off
 
-set "Time=%time:~0,7%"
+set "Time=%time:~0,8%"
 set "t=%Time: =0%"
 ::echo %t%
 

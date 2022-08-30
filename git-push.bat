@@ -6,8 +6,10 @@ set "t=%Time: =0%"
 
 set "remarks=%date:~,4%-%date:~5,2%-%date:~8,2%-%t%-push"
 
+set "space= "
 echo %remarks%
-echo   
+echo   %space%
+
  git add src
  git add git-cookbook
  git add  README.md LICENSE

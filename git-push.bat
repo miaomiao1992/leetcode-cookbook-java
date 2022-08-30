@@ -6,7 +6,7 @@ set "t=%Time: =0%"
 
 set "remarks=%date:~,4%-%date:~5,2%-%date:~8,2%-%t%-push"
 echo %remarks%
-
+ 
 
  git add src
  git add git-cookbook

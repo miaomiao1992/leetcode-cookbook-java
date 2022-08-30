@@ -17,6 +17,6 @@ git add git-push.bat
 git commit -m  %remarks%
 git push origin main
 
-echo git-push success!
+
 
 @pause

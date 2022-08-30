@@ -5,10 +5,8 @@ set "t=%Time: =0%"
 ::echo %t%
 
 set "remarks=%date:~,4%-%date:~5,2%-%date:~8,2%-%t%-push"
-
-set "space= "
 echo %remarks%
-echo   %space%
+
 
  git add src
  git add git-cookbook
